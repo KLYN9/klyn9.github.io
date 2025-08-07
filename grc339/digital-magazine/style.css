@@ -1,0 +1,173 @@
+/*CSS document*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+div.container, div.home-container {
+    max-width: 45em;
+    margin: auto;
+}
+
+nav {
+    margin-bottom: 1.5em;
+}
+
+header {
+    margin: 0 0.3em 1em;
+}
+
+/* figure out how to fix the logo */
+
+nav ul li {
+    list-style-type: none;
+    margin-bottom: 0.4em;
+}
+
+nav ul li a {
+    color: rgb(95, 118, 151);
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: rgb(43, 43, 43);
+}
+
+figure {
+    margin: 0;
+}
+
+h1 {
+    width: 7em;
+    margin: 1em 0 1em 0;
+}
+
+h2 {
+    font-family: serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.7em;
+    color: rgb(97, 118, 152);
+    margin-left: 0.2em;
+    padding-top: 0.2em;
+}
+
+section.main-story h2 {
+    font-size: 2.8em;
+}
+
+section.main-story p {
+    margin: 0 0 2em 0.5em;
+}
+
+section.secondary-story p {
+   margin: 0 0.4em 2em; 
+}
+
+section.tertiary-story h2 {
+    font-size: 1.2em;
+    padding-top: 0.5em;
+    margin: 0 0.5em 0 0.4em;
+    border-top: solid 1px rgb(114, 135, 164);
+}
+
+section.tertiary-story p {
+    margin: 0 0 2em 0.5em; 
+}
+
+/* This is where there is a chunk of specifics for the section class for main story or secondary */
+
+p {
+    color: rgb(43, 43, 43);
+    line-height: 1.3em;
+    /* do i need a margin here?? */
+    
+}
+
+article h2 {
+    font-size: 2.5em;
+    padding-top: 1em;
+    margin-bottom: 0.3em;
+}
+
+article p {
+    margin: 0 0.5em 1em;
+}
+
+aside {
+    background-color: rgb(205, 207, 253);
+    padding: 1em 0.5em 1em;
+}
+
+aside h2 {
+    font-size: 1.5em;
+    color: rgb(93, 120, 151);
+}
+
+aside p {
+    padding-bottom: 0.5em;
+}
+
+figcaption {
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(85, 85, 85);
+    margin: 0.2em 0.4em 1em;
+}
+
+footer {
+    background-color: rgb(95, 118, 151);
+    padding: 0.7em;
+}
+
+footer p {
+    color: rgb(237, 237, 238);
+}
+
+@media screen and (min-width: 45em) {
+    nav ul li {
+        display: inline;
+        margin-right: 1em;
+        margin-left: 0em;
+    }
+
+    h1, h2 {
+        margin-left: 0;
+    }
+    
+    article p {
+        margin-left: 0;
+    }
+
+    section.main-story p {
+        margin-left: 0;
+    }
+    
+    section.secondary-story p {
+        margin-left: 0;
+    }
+
+    section.tertiary-story h2 {
+        margin-left:0;
+    }
+    
+    section.tertiary-story p {
+        margin-left: 0;
+    }
+
+    figcaption {
+    margin: 0.2em 0.4em 1em 0em;
+    }
+}
+
