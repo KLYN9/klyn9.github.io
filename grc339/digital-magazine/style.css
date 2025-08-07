@@ -83,16 +83,12 @@ section.tertiary-story h2 {
 }
 
 section.tertiary-story p {
-    margin: 0 0 2em 0.5em; 
+    margin: 0 0.5em 2em 0.5em; 
 }
-
-/* This is where there is a chunk of specifics for the section class for main story or secondary */
 
 p {
     color: rgb(43, 43, 43);
-    line-height: 1.3em;
-    /* do i need a margin here?? */
-    
+    line-height: 1.3em;  
 }
 
 article h2 {
