@@ -18,7 +18,7 @@ nav {
 }
 
 header {
-    margin: 0 0.3em 0em;
+    margin: 0.7em 0.3em 0em;
 }
 
 /* figure out how to fix the logo */
@@ -29,10 +29,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(95, 118, 151);
-    font-family: sans-serif;
+    color: rgb(122, 141, 90);
+    font-family: vinila-variable, sans-serif;
     font-weight: bold;
     margin-bottom: 0.5em;
+}
+
+nav a:hover {
+  color: rgb(199, 203, 206);
 }
 
 a {
@@ -41,8 +45,8 @@ a {
 
 body {
     text-decoration: none;
-    font-family: sans-serif;
-    color: rgb(43, 43, 43);
+    font-family: eb-garamond, serif;
+    color: rgb(41, 41, 41);
 }
 
 figure {
@@ -50,16 +54,17 @@ figure {
 }
 
 h1 {
-    width: 7em;
+    width: 10em;
     margin: 1em 0 1em 0;
 }
 
 h2 {
-    font-family: serif;
+    font-family: vinila-variable, sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 85, "wght" 400;
     font-weight: bold;
     font-style: normal;
     font-size: 1.7em;
-    color: rgb(97, 118, 152);
+    color: rgb(122, 141, 90);
     margin-left: 0.2em;
     padding-top: 0.2em;
 }
@@ -80,7 +85,7 @@ section.tertiary-story h2 {
     font-size: 1.2em;
     padding-top: 0.5em;
     margin: 0 0.5em 0 0.4em;
-    border-top: solid 1px rgb(114, 135, 164);
+    border-top: solid 1px rgb(41, 41, 41);
 }
 
 section.tertiary-story p {
@@ -88,13 +93,14 @@ section.tertiary-story p {
 }
 
 p {
-    color: rgb(43, 43, 43);
-    line-height: 1.3em;  
+    color: rgb(41, 41, 41);
+    line-height: 1.4em;  
+    font-size: 1.1em;
 }
 
 article h2 {
     font-size: 2.5em;
-    padding-top: 1em;
+    padding-top: 0.8em;
     margin-bottom: 0.3em;
 }
 
@@ -103,34 +109,35 @@ article p {
 }
 
 aside {
-    background-color: rgb(205, 207, 253);
+    background-color: rgb(245, 245, 245);
     padding: 1em 0.5em 1em;
 }
 
 aside h2 {
     font-size: 1.5em;
-    color: rgb(93, 120, 151);
+    color: rgb(122, 141, 90);
 }
 
 aside p {
-    padding-bottom: 0.5em;
+    padding-bottom: 1.4em;
 }
 
 figcaption {
-    font-family: sans-serif;
+    font-family: eb-garamond, serif;
+    font-weight: 400;
     font-style: italic;
-    color: rgb(85, 85, 85);
+    color: rgb(41, 41, 41);
     margin: 0.2em 0.4em 1em;
 }
 
 footer {
-    background-color: rgb(95, 118, 151);
+    border-top: solid 1px rgb(41, 41, 41);
     padding: 0.7em;
     box-sizing: border-box;
 }
 
 footer p {
-    color: rgb(237, 237, 238);
+    color: rgb(41, 41, 41);
 }
 
 @media screen and (min-width: 40em) {
